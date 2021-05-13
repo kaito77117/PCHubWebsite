@@ -1,0 +1,544 @@
+body{
+    background-image: url("../Assets/mainmenu.jpg");
+    height: 100%;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    font-size: 2.2pc;
+    position: relative;
+    top: -60px;
+    left: 2%;
+    display: inline-block;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+    0 0 0px white, 0 0 10px white, 0 0 10px white, 0 0 50px white;
+    transition: all 0.3s;
+}
+
+.title:hover{
+  top: -52px;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 10px white, 0 0 20px white, 0 0 10px white, 0 0 50px white;
+}
+
+
+.box{
+    position: relative;
+    width: 900px;
+    height: 2100px;
+    padding: 50px;
+    margin: auto;
+    border: 5px solid white;
+    top: -70px;   
+    text-align: center;
+
+}
+
+
+
+.image-wrapper{
+    align-items: center;
+}
+
+
+
+
+.headerhome{
+
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 15%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+
+.headerhome:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+
+}
+
+.headerpcs{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 16%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headerpcs:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headerlaptops{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 16.5%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headerlaptops:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff,
+  0 0 20px white, 0 0 40px white;
+}
+
+.headerconsoles{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+
+}
+
+
+.headerconsoles:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headerpccomponents{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+
+}
+
+
+.headerpccomponents:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headerkeyboards{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headerkeyboards:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headermice{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headermice:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headermousepads{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headermousepads:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+.headerheadsets{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2pc;
+  font-weight: 1000;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  left: 17%;
+  opacity: 100%;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 20px white, 0 0 5px white;
+}
+
+.headerheadsets:hover{
+  opacity: 70%;
+  top: 42px;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 
+  0 0 20px white, 0 0 40px white;
+}
+
+
+.pcsbutton{
+  
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  background-image: url("../Assets/mainpcs.png");
+  background-size: cover;
+
+  position: relative; 
+  height: 415px;
+  top: -50px;
+  left: -5.5%;
+  width: 1000px;
+ 
+
+}
+
+.pcsbutton:hover{
+opacity: 95%;
+}
+
+#pcs{
+  text-align: center;
+  font-size: 3pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 75%;
+  left: -40%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+  transition: all 0.5s;
+  margin: 5px;
+}
+
+
+.hl{
+  border-top: 5px solid white;
+  position: relative; 
+  top: -2.4%;
+  width: 1005px;
+  left: -6%;
+}
+
+
+.keyboardsbutton{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  background-image: url("../Assets/mainkeyboard.jpg");
+  background-size: cover;
+  position: relative; 
+  height: 415px;
+  top: -50px;
+  left: -5.5%;
+  width: 500px;
+  z-index: 1;
+}
+
+.keyboardsbutton:hover{
+  opacity: 95%;
+}
+
+#keyboards{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 80%;
+  left: -32%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+
+}
+
+.vl{
+  border-left: 5px solid white;
+  height: 415px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 19%;
+  z-index: 3;
+}
+
+.micebutton{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  background-image: url("../Assets/mainmice.jpg");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 415px;
+  top: -465px;
+  right: -50%;
+  width: 500px;
+  z-index: 2;
+}
+
+.micebutton:hover{
+  opacity: 95%;
+}
+
+#mice{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 80%;
+  left: -32%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+}
+
+.hl1{
+  border-top: 5px solid white;
+  position: relative; 
+  top: -22.3%;
+  width: 1005px;
+  left: -6%;
+  z-index: 4;
+}
+
+
+.mousepadbutton{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  background-image: url("../Assets/mainmousepad.jpg");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 415px;
+  top: -467px;
+  left: -5.5%;
+  width: 500px;
+  z-index: 2;
+}
+
+.mousepadbutton:hover{
+  opacity: 95%;
+}
+
+#mousepads{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 80%;
+  left: -32%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+}
+
+.vl1{
+  border-left: 5px solid white;
+  height: 415px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 38%;
+  z-index: 3;
+}
+
+.headsetbutton{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  background-image: url("../Assets/mainheadset.jpeg");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 415px;
+  top: -883px;
+  right: -50%;
+  width: 500px;
+  z-index: 1;
+}
+
+.headsetbutton:hover{
+  opacity: 95%;
+}
+
+#headsets{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 80%;
+  left: -32%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+}
+
+.hl2{
+  border-top: 5px solid white;
+  position: relative; 
+  top: -42.3%;
+  width: 1005px;
+  left: -6%;
+  z-index: 4;
+}
+
+.laptops{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+}
+
+.laptops:hover{
+  opacity: 70%;
+}
+
+.consoles{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+}
+
+.consoles:hover{
+  opacity: 70%;
+}
+.pccomponents{
+  text-align: center;
+  font-size: 1.5pc;
+  font-weight: 1000;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+}
+
+.pccomponents:hover{
+  opacity: 70%;
+}
+
+
