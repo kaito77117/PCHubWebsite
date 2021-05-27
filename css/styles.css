@@ -503,17 +503,39 @@ opacity: 95%;
   z-index: 4;
 }
 
-.laptops{
+.laptopsbutton{
   text-align: center;
   font-size: 1.5pc;
   font-weight: 1000;
   color: white;
   background-color: transparent;
   border: 2px white;
+  background-image: url("../Assets/mainlaptop.jpg");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 415px;
+  top: -886px;
+  right: 5.5%;
+  width: 998px;
+  z-index: 1;
 }
 
-.laptops:hover{
-  opacity: 70%;
+.laptopsbutton:hover{
+  opacity: 95%;
+}
+#laptops{
+  text-align: center;
+  font-size: 3pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 75%;
+  left: -35%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
 }
 
 .consoles{
