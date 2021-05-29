@@ -1,3 +1,15 @@
+@keyframes moveAround{
+/*  0%  {top: -2000px; left: 5%; background-image: linear-gradient(#0c0654, #020f61, #011f41, #0c3066)}
+  25% {top: -2000px; left: 7%; background-image: linear-gradient(#0c3066, #0c0654, #020f61, #011f41)}
+  50% {top: -1950px; left: 7%; background-image: linear-gradient(#011f41, #0c3066, #0c0654, #020f61)}
+  75% {top: -1950px; left: 5%; background-image: linear-gradient(#020f61, #011f41, #0c3066, #0c0654)}
+  100%{top: -2000px; left: 5%; background-image: linear-gradient(#0c0654, #020f61, #011f41, #0c3066)} */
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+
+}
+
+
 body{
     background-image: url("../Assets/mainmenu.jpg");
     height: 100%;
@@ -562,5 +574,26 @@ opacity: 95%;
 .pccomponents:hover{
   opacity: 70%;
 }
+
+
+.side-box{
+width: 300px;
+height: 1700px;
+position: relative;
+top: -2000px;
+left: 5%;
+z-index: -2;
+border-radius: 25px;
+/* animation-name: moveAround;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-delay: 1s;
+animation-direction: normal; */
+animation: moveAround 5s linear infinite;
+background-image: linear-gradient(#0c0654, #020f61, #011f41, #0c3066);
+background-size: 400% 100%;
+
+}
+
 
 
