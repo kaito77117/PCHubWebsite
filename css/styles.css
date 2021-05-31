@@ -1,3 +1,7 @@
+/*
+Prebuilt PC's fitted with different types of PC componenets to fit your needs
+*/
+
 @keyframes moveAround{
 /*  0%  {top: -2000px; left: 5%; background-image: linear-gradient(#0c0654, #020f61, #011f41, #0c3066)}
   25% {top: -2000px; left: 7%; background-image: linear-gradient(#0c3066, #0c0654, #020f61, #011f41)}
@@ -12,7 +16,7 @@
 
 body{
     background-image: url("../Assets/mainmenu.jpg");
-    height: 100%;
+    height: 100vh;
     margin: 0;
 }
 
@@ -35,8 +39,30 @@ body{
   text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
   0 0 10px white, 0 0 20px white, 0 0 10px white, 0 0 50px white;
 }
+/*
+.gitbutton{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  box-shadow: 0 0 3px black, 0 0 3px black, 
+  0 0 0px white, 0 0 10px white, 0 0 10px white, 0 0 50px white;
+  border-radius: 50%;
+  background-image: url('../Assets/githublogo.png');
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: auto;
+  position: relative; 
+  top: -6%;
+  left: 85%;
+  z-index: 6;
+  transition: all 0.3s;
+}
 
+.gitbutton:hover{
 
+}
+*/
 .box{
     position: relative;
     width: 900px;
@@ -550,29 +576,97 @@ opacity: 95%;
   0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
 }
 
-.consoles{
+.hl3{
+  border-top: 5px solid white;
+  position: relative; 
+  top: -42.3%;
+  width: 1005px;
+  left: -6%;
+  z-index: 4;
+}
+
+.consolesbutton{
   text-align: center;
   font-size: 1.5pc;
   font-weight: 1000;
   color: white;
   background-color: transparent;
   border: 2px white;
+  background-image: url("../Assets/mainconsole.png");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 530px;
+  top: -890px;
+  right: 5.8%;
+  z-index: 2;
 }
 
-.consoles:hover{
-  opacity: 70%;
+
+
+.consolesbutton:hover{
+  opacity: 95%;
 }
-.pccomponents{
+
+#consoles{
+  text-align: center;
+  font-size: 3pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 10%;
+  left: -35%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white;
+}
+
+
+.dl1{
+  border-top: 5px solid white;
+  position: relative; 
+  top: -54.9%;
+  width: 1140px;
+  left: -13.5%;
+  z-index: 4;
+  transform: rotate(-28deg);
+}
+
+.pccomponentsbutton{
   text-align: center;
   font-size: 1.5pc;
   font-weight: 1000;
   color: white;
   background-color: transparent;
   border: 2px white;
+  background-image: url("../Assets/mainpccomponent.png");
+  background-size: cover;
+  opacity: 100%;
+  position: relative; 
+  height: 540px;
+  top: -1435px;
+  right: 5.8%;
+  width: 1002px;
+  z-index: 1;
 }
 
-.pccomponents:hover{
-  opacity: 70%;
+.pccomponentsbutton:hover{
+  opacity: 95%;
+}
+
+#pccomponents{
+  text-align: center;
+  font-size: 3pc;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+  border: 2px white;
+  position: relative;
+  top: 80%;
+  left: 25%;
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
+  0 0 0px white, 0 0 0.1px white, 0 0 2px white, 0 0 10px white
 }
 
 
@@ -595,5 +689,24 @@ background-size: 400% 100%;
 
 }
 
+.infotab{
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  position: absolute;
+  top: 280%;
+  left: 0%;
+  opacity: 98%;
+}
 
-
+.p1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2pc;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  color: white;
+}
