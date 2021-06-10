@@ -707,6 +707,35 @@ background-size: 400% 100%;
   font-size: 1.2pc;
   text-align: center;
   position: relative;
-  top: 10%;
+  top: -10%;
   color: white;
+}
+
+.gitbutton{
+  position: relative;
+  top: 45%;
+  left: -25%;
+  background-image: url("../Assets/githublogo.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  border: 50px solid white;
+  border-width: 5px;
+  display: inline-block;
+  transition: 0.2s;
+  opacity: 100%;
+  z-index: 10;
+  background-size: 100%;
+}
+
+.gitbutton:hover{
+  top: 47%;
+  opacity: 80%;
+}
+
+.gitbutton:focus{
+  border: 50px solid rgb(146, 145, 145);
+  border-radius: 40px;
 }
