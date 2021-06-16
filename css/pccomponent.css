@@ -12,12 +12,16 @@
         font-size: 2.2pc;
         position: relative;
         top: -60px;
-        left: 5%;
+        left: 1%;
         display: inline-block;
         text-shadow: 0 0 0px #fff, 0 0 0px #fff, 
         0 0 0px white, 0 0 10px white, 0 0 10px white, 0 0 50px white;
         transition: all 0.3s;
+        block-size: auto;
+        width: 10px;
+        margin: auto;
     }
+    
     
     .title:hover{
       top: -52px;
