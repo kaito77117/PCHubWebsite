@@ -101,7 +101,7 @@ body{
 
 
 .headerhome{
-
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -128,6 +128,7 @@ body{
 }
 
 .headerpcs{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -152,6 +153,7 @@ body{
 }
 
 .headerlaptops{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -176,6 +178,7 @@ body{
 }
 
 .headerconsoles{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -202,6 +205,7 @@ body{
 }
 
 .headerpccomponents{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -228,6 +232,7 @@ body{
 }
 
 .headerkeyboards{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -252,6 +257,7 @@ body{
 }
 
 .headermice{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -276,6 +282,7 @@ body{
 }
 
 .headermousepads{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -300,6 +307,7 @@ body{
 }
 
 .headerheadsets{
+  transition: 0.2s;
   border: none;
   background-color: transparent;
   font-size: 1.2pc;
@@ -693,8 +701,10 @@ position: relative;
 top: -2000px;
 left: 5%;
 z-index: -2;
-border: 1px solid black;
+border: 5px solid;
 border-radius: 25px;
+border-image: conic-gradient(from 0deg, red, orange, yellow, green, cyan, blue, magenta, purple) 1;
+border-image-slice: 25px;
 /* animation-name: moveAround;
 animation-duration: 4s;
 animation-iteration-count: infinite;
@@ -702,11 +712,13 @@ animation-delay: 1s;
 animation-direction: normal; */
 background: linear-gradient(130deg, #0c0654, #02179c, #022a57, #10366e);
 background-size: 200% 200%;
-
 -webkit-animation: sideboxAnimation 5s ease infinite;
 -moz-animation: sideboxAnimation 5s ease infinite;
-animation: sideboxAnimation 5s ease infinite;
+animation: sideboxAnimation 5s ease infinite, borderRotate 10s linear infinite;
 }
+
+
+
 
 .infotab{
   width: 100%;
@@ -725,15 +737,16 @@ animation: sideboxAnimation 5s ease infinite;
   font-family: 'Nunito', sans-serif;
   font-size: 1.2pc;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: -10%;
   color: white;
 }
 
 .gitbutton{
-  position: relative;
-  top: 45%;
-  left: -25%;
+  position: absolute;
+  position: center;
+  top: 0%;
+  left: 0%;
   background-image: url("../Assets/githublogo.png");
   background-size: cover;
   width: 50px;
@@ -757,4 +770,10 @@ animation: sideboxAnimation 5s ease infinite;
 .gitbutton:focus{
   border: 50px solid rgb(146, 145, 145);
   border-radius: 40px;
+}
+
+
+.gitbutton:active{
+  width: 60px;
+  height: 60px;
 }
